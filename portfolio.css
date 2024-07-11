@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+@media screen and(max-width:1024px) {
+    .right-nav-icons{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      position: absolute;
+      right: 100px;
+      top:10px;
+  }
+  }
+  .nav-link{
+    color: black;
+    border-bottom: solid 2px transparent;
+   
+}
+.nav-link a{
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: orange;
+    border-bottom: solid 2px orange;
+}
+.right-nav-icons .nav-link{
+   border-bottom: 0px;
+}
+.right-nav-icons .nav-link:hover{
+    color: black;
+    border-bottom: 0px;
+    border-radius: 30px;
+}
+
+/* second page */
+
+
+.hero-text h3{
+    
+    padding-top: 500px;
+}
+.objective{
+    background-color: rgb(130, 130, 130);
+    color: white;
+    margin-top: 0.5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.objective h2{
+    text-align: center;
+}
+.objective p{
+    text-align: justify;
+}
+
+.social-icons a{
+    color:white;
+}
+.social-icons a:hover{
+    background-color: skyblue;
+}
+
+
+
+
+.card-title {
+    text-align: center;
+}
+.card {
+    height: auto;
+}
+
+
+.social-icons a{
+        font-size: 1.4rem;
+        color:blue;
+        margin-right: 10px;
+}
+.social-icons a:hover{
+    color:#dc7e7e;
+}
+/* page 2 */
+.objective{
+    background-color: rgb(63, 62, 62);
+    color: red;
+    margin-top: 0.5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.objective h2{
+    text-align: center;
+}
+.objective p{
+    text-align: justify;
+}
+.objective ul{
+    text-align: left;
+}
+
+.social-icons a{
+        font-size: 1.4rem;
+        color:red;
+        margin-right: 10px;
+}
+
+.servicesText.card {
+    height: 600px;
+    cursor: pointer;
+  }
+
+.card-title {
+    text-align: center;
+}
+.card {
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
